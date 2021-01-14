@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway-light", sans-serif;
   color: #444;
 }
 
@@ -23,7 +23,11 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, .font-primary {
-  font-family: "Yellowtail", sans-serif;
+  font-family: "Kalam-light", sans-serif;
+}
+
+ul {
+  list-style: none;
 }
 
 /*--------------------------------------------------------------
@@ -83,9 +87,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin: 0;
   padding: 4px 0;
   line-height: 1;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 3px;
-  text-transform: uppercase;
+  
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
@@ -126,7 +130,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway-light", sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -162,7 +166,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu .drop-down ul a {
   padding: 10px 20px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 300;
   text-transform: none;
   color: #1c3745;
 }
@@ -236,7 +240,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   position: relative;
   color: #ddecf5;
   padding: 10px 20px;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
@@ -329,7 +333,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: linear-gradient(to right, rgba(30, 67, 86, 0.6), rgba(30, 67, 86, 0.4)), url("../img/grafiti_pattern.JPG") center top no-repeat;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -365,7 +369,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #fff;
   margin-bottom: 30px;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 #hero p {
@@ -389,7 +393,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #hero .btn-get-started {
-  font-family: "Yellowtail", sans-serif;
+  font-family: "Kalam-light", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -590,9 +594,9 @@ section {
 }
 
 .services .title {
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 15px;
-  font-size: 28px;
+  font-size: 34px;
 }
 
 .services .title a {
@@ -692,7 +696,7 @@ section {
 
 .why-us .icon-box .title {
   margin-left: 95px;
-  font-weight: 700;
+  font-weight: 300;
   margin-bottom: 10px;
   font-size: 18px;
   text-transform: uppercase;
@@ -825,8 +829,8 @@ section {
 }
 
 .features h3 {
-  font-weight: 400;
-  font-size: 24px;
+  font-weight: 300;
+  font-size: 28px;
 }
 
 .features ul {
@@ -839,7 +843,7 @@ section {
 }
 
 .features ul i {
-  font-size: 20px;
+  font-size: 24px;
   padding-right: 4px;
   color: #68A4C4;
 }
@@ -852,7 +856,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about h3 {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 26px;
 }
 
@@ -887,7 +891,7 @@ section {
 .facts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Yellowtail", sans-serif;
+  font-family: "Kalam-light", sans-serif;
   font-size: 14px;
 }
 
@@ -1042,7 +1046,7 @@ section {
 }
 
 .service-details .card-title {
-  font-weight: 700;
+  font-weight: 300;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -1059,7 +1063,7 @@ section {
 .service-details .read-more a {
   color: #777777;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 12px;
   transition: 0.3s;
 }
@@ -1104,7 +1108,7 @@ section {
 .pricing h4 {
   font-size: 46px;
   color: #68A4C4;
-  font-weight: 400;
+  font-weight: 300;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 25px;
 }
@@ -1153,8 +1157,8 @@ section {
   color: #fff;
   transition: none;
   font-size: 14px;
-  font-weight: 400;
-  font-family: "Yellowtail", sans-serif;
+  font-weight: 300;
+  font-family: "Kalam-light", sans-serif;
   transition: 0.3s;
 }
 
@@ -1216,13 +1220,13 @@ section {
   display: inline-block;
   padding: 0 4px 6px 4px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 20px;
   color: #444;
   background: white;
   transition: all 0.3s ease-in-out;
   border-bottom: 2px solid #fff;
-  font-family: "Yellowtail", sans-serif;
+  font-family: "Kalam-light", sans-serif;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
@@ -1325,23 +1329,23 @@ section {
 }
 
 .team .member .member-info h4 {
-  font-weight: 700;
+  font-weight: 300;
   margin: 15px 0 5px 0;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .team .member .member-info span {
   display: block;
-  font-size: 13px;
+  font-size: 22px;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 15px;
   color: #68A4C4;
 }
 
 .team .member .member-info p {
   font-style: italic;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 26px;
   color: #666;
 }
@@ -1378,7 +1382,7 @@ section {
 .contact .info-box h3 {
   font-size: 20px;
   color: #666;
-  font-weight: 700;
+  font-weight: 300;
   margin: 10px 0;
 }
 
@@ -1399,7 +1403,7 @@ section {
   display: none;
   color: red;
   margin: 0 0 15px 0;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 13px;
 }
 
@@ -1607,7 +1611,7 @@ section {
   line-height: 1.6;
   margin-bottom: 0;
   font-style: italic;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 22px;
 }
 
@@ -1710,7 +1714,7 @@ section {
 
 .blog .blog-author h4 {
   margin-left: 140px;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 22px;
   margin-bottom: 0px;
   padding: 0;
@@ -1890,7 +1894,7 @@ section {
 
 .blog .sidebar .sidebar-title {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 300;
   padding: 0 0 0 0;
   margin: 0 0 15px 0;
   color: #32627b;
@@ -2030,7 +2034,7 @@ section {
   background: #0b212d;
   padding: 0 0 30px 0;
   color: #fff;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 #footer .footer-newsletter {
@@ -2043,7 +2047,7 @@ section {
   margin: 0 0 20px 0;
   padding: 0;
   line-height: 1;
-  font-weight: 600;
+  font-weight: 300;
   color: #a2cce3;
 }
 
@@ -2093,19 +2097,19 @@ section {
 }
 
 #footer .footer-top .footer-info h3 {
-  font-size: 18px;
+  font-size: 24px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
   color: #a2cce3;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 #footer .footer-top .footer-info p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Yellowtail", sans-serif;
+  font-family: "Kalam-light", sans-serif;
   color: #fff;
 }
 
@@ -2132,7 +2136,7 @@ section {
 
 #footer .footer-top h4 {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 300;
   color: #a2cce3;
   position: relative;
   padding-bottom: 12px;
