@@ -462,6 +462,19 @@ ul {
   }
 }
 
+/*--
+#Animated Logo
+--*/
+
+
+.anlogo .logoimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  text-align: center;
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -2054,31 +2067,33 @@ section {
 #footer .footer-newsletter form {
   margin-top: 30px;
   background: #fff;
-  padding: 6px 10px;
+  color: #9abfad;
+  padding: 10px 20px;
   position: relative;
   border-radius: 50px;
 }
 
 #footer .footer-newsletter form input[type="email"] {
-  border: 0;
+  
   padding: 4px;
-  width: calc(100% - 100px);
+  width: calc(100% - 300px);
 }
 
 #footer .footer-newsletter form input[type="submit"] {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  top: 40px;
+  right: 30px;
+  bottom: 40px;
   border: 0;
   background: none;
   font-size: 16px;
-  padding: 0 20px;
-  margin: 3px;
+  padding: 0 16px;
+  margin: 4px 2px;
   background: #68A4C4;
-  color: #fff;
+  color: #020202;
   transition: 0.3s;
-  border-radius: 50px;
+  border-radius: 30px;
+  line-height: normal;
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
