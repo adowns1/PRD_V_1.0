@@ -1,0 +1,65 @@
+
+<!--White Paypal manage subscriptions button through creating subscription--- USE THIS ONE [3x 249]-->
+
+<div id="paypal-button-container"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=AfLEgVz9EMJFUozW0sRlyKxry3bRBj76nxnjowwHarAJ_MxVqgDJ0Gq9Bsrl-aF38YWzPa_IRnXg-KTK&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'pill',
+          color: 'white',
+          layout: 'vertical',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          'plan_id': 'P-8D4088044Y550825JMBHY67A'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID);
+      }
+  }).render('#paypal-button-container');
+</script>
+
+
+
+
+
+<!--BUY NOW white buttons- 1x 675 10% off + bonus -- May Not need bc of thinkific-->
+<div id="smart-button-container">
+    <div style="text-align: center;">
+      <div id="paypal-button-container"></div>
+    </div>
+  </div>
+<script src="https://www.paypal.com/sdk/js?client-id=AfLEgVz9EMJFUozW0sRlyKxry3bRBj76nxnjowwHarAJ_MxVqgDJ0Gq9Bsrl-aF38YWzPa_IRnXg-KTK&currency=USD" data-sdk-integration-source="button-factory"></script>
+<script>
+  function initPayPalButton() {
+    paypal.Buttons({
+      style: {
+        shape: 'pill',
+        color: 'white',
+        layout: 'vertical',
+        label: 'buynow',
+        
+      },
+
+      createOrder: function(data, actions) {
+        return actions.order.create({
+          purchase_units: [{"description":"The Aligned Artist Program- Pay in Full [10% discount + bonus]","amount":{"currency_code":"USD","value":675}}]
+        });
+      },
+
+      onApprove: function(data, actions) {
+        return actions.order.capture().then(function(details) {
+          alert('Transaction completed by ' + details.payer.name.given_name + '!');
+        });
+      },
+
+      onError: function(err) {
+        console.log(err);
+      }
+    }).render('#paypal-button-container');
+  }
+  initPayPalButton();
+</script>

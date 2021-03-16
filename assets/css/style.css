@@ -572,6 +572,18 @@ section {
 }
 
 /*--------------------------------------------------------------
+# sign-up-wtwc
+--------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
 # Our Services
 --------------------------------------------------------------*/
 .services {
@@ -865,6 +877,10 @@ section {
   margin-bottom: 0;
 }
 
+.features .btn-btn-secondary, .btn-lg, .btn-block {
+    background-color: #1e4356;
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -907,6 +923,13 @@ section {
   font-family: "Kalam-light", sans-serif;
   font-size: 14px;
 }
+
+
+
+/*--------------------------------------------------------------
+# Register.html button?
+--------------------------------------------------------------*/
+
 
 /*--------------------------------------------------------------
 # Our Skills
@@ -2067,7 +2090,7 @@ section {
 #footer .footer-newsletter form {
   margin-top: 30px;
   background: #fff;
-  color: #9abfad;
+  color: #a2cce3;
   padding: 10px 20px;
   position: relative;
   border-radius: 50px;
@@ -2105,6 +2128,16 @@ section {
   border-top: 1px solid #17455e;
   border-bottom: 1px solid #123649;
   padding: 60px 0 30px 0;
+}
+
+
+#footer .footer-top h3 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  color: #a2cce3;
+  font-weight: 300;
 }
 
 #footer .footer-top .footer-info {
